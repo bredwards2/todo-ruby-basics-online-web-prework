@@ -18,8 +18,7 @@ def return_a_value(phrase = "nice")
   return return_a_value(phrase)
 end
 
-def last_evaluated_value(phrase)
-  phrase = "expert"
+def last_evaluated_value(phrase ="expert")
   return last_evaluated_value(phrase)
 end
 
