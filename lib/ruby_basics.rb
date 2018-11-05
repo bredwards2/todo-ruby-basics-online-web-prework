@@ -14,7 +14,7 @@ end
 def greeting(name)
   puts 'Hi there, #{name}'
   name = "Bobby!"
-  returns greeting(name)
+  return greeting(name)
 
 end
 
@@ -30,5 +30,5 @@ end
 
 def pizza_party(phrase)
   phrase = "cheese"
-  returns pizza_party(phrase = "pepperoni")
+  return pizza_party(phrase = "pepperoni")
 end
