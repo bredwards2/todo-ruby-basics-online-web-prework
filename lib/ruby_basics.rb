@@ -14,7 +14,7 @@ def greeting(greeting, name)
   return greeting
 end
 
-def return_a_value(phrase = "nice")
+def return_a_value(phrase = "Nice")
   return phrase
 end
 
