@@ -15,7 +15,7 @@ def greeting(greeting, name)
 end
 
 def return_a_value(phrase = "nice")
-  return return_a_value(phrase)
+  return phrase
 end
 
 def last_evaluated_value(phrase ="expert")
