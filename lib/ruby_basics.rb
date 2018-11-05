@@ -14,7 +14,7 @@ def greeting(name = "Bobby")
   return greeting(name)
 end
 
-def return_a_value(phrase = "Nice")
+def return_a_value(phrase = "nice")
   return return_a_value(phrase)
 end
 
@@ -23,7 +23,6 @@ def last_evaluated_value(phrase)
   return last_evaluated_value(phrase)
 end
 
-def pizza_party(phrase)
-  phrase = "cheese"
-  return pizza_party(phrase = "pepperoni")
+def pizza_party(phrase = "cheese")
+  return phrase
 end
